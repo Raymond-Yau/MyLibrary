@@ -1,0 +1,12 @@
+.container-fluid {
+  padding: 20px;
+  }
+.box {
+  border: 5px black;
+  /*margin: 5px;*/
+  float: left;
+  width: 200px;
+}
+  .box img {
+  max-width: 100%;
+}

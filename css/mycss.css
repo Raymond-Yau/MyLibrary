@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.navbar-toggler-icon{
+    width: 30px;
+    height: 30px;
+}
+a.list-group-item{
+    color: #000;
+}
+a.list-group-item:focus,
+a.list-group-item:hover {
+    color: #000;
+    text-decoration: none;
+}
+body{
+    background-color: #f7f7f7;
+}
+.list-group{
+    font-weight: bold;
+}
+.card-body h5{
+    color: #b12704;
+}
+.card-body ul{
+    margin-left: 10px
+}
+.card-body img{
+    width: 100%;
+    height: 100%;
+}
+ .bd-placeholder-img {
+     font-size: 1.125rem;
+     text-anchor: middle;
+ }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: 1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+     margin-bottom: 1px;
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+ }
+.form-signin input[type="checkpassword"] {
+    margin-bottom: 1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-check {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.form-check .checkbox {
+    font-weight: 400;
+}
+.form-check .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-check .form-control:focus {
+    z-index: 2;
+}
+.form-check input[type="email"] {
+    margin-bottom: 1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-check input[type="password"] {
+    margin-bottom: 1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-check input[type="checkpassword"] {
+    margin-bottom: 1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.img-circle{
+    border-radius: 50%;
+}
+div img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div img:hover{
+    transform: scale(1.05);
+}
